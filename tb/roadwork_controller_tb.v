@@ -19,7 +19,7 @@ module roadwork_controller_tb();
         @(posedge clk);
         #6 reset = 1'b1;
         #5 reset = 1'b0;
-        #21 $finish;
+        #564 $finish;
     end
 
     always #5 clk = ~clk;
